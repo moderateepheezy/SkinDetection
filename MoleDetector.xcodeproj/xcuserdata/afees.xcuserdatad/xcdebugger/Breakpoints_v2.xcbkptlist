@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "59E14B7B-06E8-42FA-AEC1-3E73B2F1E775"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7766439-6545-4F2D-938F-DC6321047C65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoleDetector/Classifier/SkinClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "classify(image:handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F7766439-6545-4F2D-938F-DC6321047C65 - 2a42378f1da02616"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MoleDetector.Classification, Swift.Error&gt;) -&gt; () in MoleDetector.SkinClassifier.classify(image: __C.CIImage, handler: (Swift.Result&lt;MoleDetector.SkinClassifier.SkinType, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MoleDetector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/afees/Downloads/Projects/MoleDetector/MoleDetector/Classifier/SkinClassifier.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "F7766439-6545-4F2D-938F-DC6321047C65 - 4527800e91d01d1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MoleDetector.Classification) -&gt; MoleDetector.SkinClassifier.SkinType in closure #1 (Swift.Result&lt;MoleDetector.Classification, Swift.Error&gt;) -&gt; () in MoleDetector.SkinClassifier.classify(image: __C.CIImage, handler: (Swift.Result&lt;MoleDetector.SkinClassifier.SkinType, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MoleDetector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/afees/Downloads/Projects/MoleDetector/MoleDetector/Classifier/SkinClassifier.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA796B74-F63B-4983-81E0-476D0A5FBC46"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoleDetector/Classifier/SkinClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "skinType(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A005A95C-EB99-453F-9786-D8A403BAF370"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoleDetector/Classifier/SkinClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "skinType(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9404751C-008F-4AC2-A523-A2C83F74B246"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoleDetector/Classifier/SkinClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "classify(image:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31A104C3-7C87-40CD-A463-A31EB4A1EF5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoleDetector/Classifier/SkinClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "classify(image:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

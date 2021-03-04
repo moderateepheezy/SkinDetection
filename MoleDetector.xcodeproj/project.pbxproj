@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9393353B25F0E2E400361510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393353A25F0E2E400361510 /* AppDelegate.swift */; };
+		9393353D25F0E2E400361510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393353C25F0E2E400361510 /* SceneDelegate.swift */; };
+		9393354225F0E2E400361510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9393354025F0E2E400361510 /* Main.storyboard */; };
+		9393354425F0E2E600361510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9393354325F0E2E600361510 /* Assets.xcassets */; };
+		9393354725F0E2E600361510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9393354525F0E2E600361510 /* LaunchScreen.storyboard */; };
+		9393355325F0E3CB00361510 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393355225F0E3CB00361510 /* Classifier.swift */; };
+		9393355B25F0E72800361510 /* SkinClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393354F25F0E38700361510 /* SkinClassifier.swift */; };
+		9393356225F0F1A800361510 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393356125F0F1A800361510 /* CameraManager.swift */; };
+		9393356525F0F22400361510 /* CapturedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393356425F0F22400361510 /* CapturedImage.swift */; };
+		9393357425F0F6A700361510 /* CapturedImage+Transformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393357325F0F6A700361510 /* CapturedImage+Transformations.swift */; };
+		9393357925F0FB2300361510 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9393357825F0FB2300361510 /* RxSwift */; };
+		9393357B25F0FB2300361510 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 9393357A25F0FB2300361510 /* RxCocoa */; };
+		9393357D25F1117E00361510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393353E25F0E2E400361510 /* ViewController.swift */; };
+		9393358025F1157200361510 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393357F25F1157200361510 /* View.swift */; };
+		9393358725F116AC00361510 /* Disk in Frameworks */ = {isa = PBXBuildFile; productRef = 9393358625F116AC00361510 /* Disk */; };
+		9393358B25F1177E00361510 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393358A25F1177E00361510 /* CameraPreviewView.swift */; };
+		9393358E25F123D000361510 /* HapticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393358D25F123D000361510 /* HapticButton.swift */; };
+		9393359425F1387500361510 /* Skin_Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9393359325F1387500361510 /* Skin_Classifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9393353725F0E2E400361510 /* MoleDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoleDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9393353A25F0E2E400361510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9393353C25F0E2E400361510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9393353E25F0E2E400361510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9393354125F0E2E400361510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9393354325F0E2E600361510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9393354625F0E2E600361510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9393354825F0E2E600361510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9393354F25F0E38700361510 /* SkinClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinClassifier.swift; sourceTree = "<group>"; };
+		9393355225F0E3CB00361510 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		9393356125F0F1A800361510 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		9393356425F0F22400361510 /* CapturedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturedImage.swift; sourceTree = "<group>"; };
+		9393357325F0F6A700361510 /* CapturedImage+Transformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CapturedImage+Transformations.swift"; sourceTree = "<group>"; };
+		9393357F25F1157200361510 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		9393358A25F1177E00361510 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		9393358D25F123D000361510 /* HapticButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticButton.swift; sourceTree = "<group>"; };
+		9393359325F1387500361510 /* Skin_Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Skin_Classifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9393353425F0E2E400361510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9393357B25F0FB2300361510 /* RxCocoa in Frameworks */,
+				9393358725F116AC00361510 /* Disk in Frameworks */,
+				9393357925F0FB2300361510 /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9393352E25F0E2E400361510 = {
+			isa = PBXGroup;
+			children = (
+				9393353925F0E2E400361510 /* MoleDetector */,
+				9393353825F0E2E400361510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9393353825F0E2E400361510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9393353725F0E2E400361510 /* MoleDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9393353925F0E2E400361510 /* MoleDetector */ = {
+			isa = PBXGroup;
+			children = (
+				9393355725F0E65900361510 /* Extras */,
+				9393355625F0E62300361510 /* Classifier */,
+				9393353E25F0E2E400361510 /* ViewController.swift */,
+				9393357F25F1157200361510 /* View.swift */,
+				9393356125F0F1A800361510 /* CameraManager.swift */,
+				9393356425F0F22400361510 /* CapturedImage.swift */,
+				9393358A25F1177E00361510 /* CameraPreviewView.swift */,
+				9393358D25F123D000361510 /* HapticButton.swift */,
+				9393357325F0F6A700361510 /* CapturedImage+Transformations.swift */,
+				9393354325F0E2E600361510 /* Assets.xcassets */,
+				9393354525F0E2E600361510 /* LaunchScreen.storyboard */,
+				9393354825F0E2E600361510 /* Info.plist */,
+			);
+			path = MoleDetector;
+			sourceTree = "<group>";
+		};
+		9393355625F0E62300361510 /* Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				9393355D25F0E76A00361510 /* Models */,
+				9393354F25F0E38700361510 /* SkinClassifier.swift */,
+				9393355225F0E3CB00361510 /* Classifier.swift */,
+			);
+			path = Classifier;
+			sourceTree = "<group>";
+		};
+		9393355725F0E65900361510 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				9393353A25F0E2E400361510 /* AppDelegate.swift */,
+				9393353C25F0E2E400361510 /* SceneDelegate.swift */,
+				9393354025F0E2E400361510 /* Main.storyboard */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		9393355D25F0E76A00361510 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9393359325F1387500361510 /* Skin_Classifier.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9393353625F0E2E400361510 /* MoleDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9393354B25F0E2E600361510 /* Build configuration list for PBXNativeTarget "MoleDetector" */;
+			buildPhases = (
+				9393353325F0E2E400361510 /* Sources */,
+				9393353425F0E2E400361510 /* Frameworks */,
+				9393353525F0E2E400361510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoleDetector;
+			packageProductDependencies = (
+				9393357825F0FB2300361510 /* RxSwift */,
+				9393357A25F0FB2300361510 /* RxCocoa */,
+				9393358625F116AC00361510 /* Disk */,
+			);
+			productName = MoleDetector;
+			productReference = 9393353725F0E2E400361510 /* MoleDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9393352F25F0E2E400361510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9393353625F0E2E400361510 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 9393353225F0E2E400361510 /* Build configuration list for PBXProject "MoleDetector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9393352E25F0E2E400361510;
+			packageReferences = (
+				9393357725F0FB2300361510 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				9393358525F116AC00361510 /* XCRemoteSwiftPackageReference "Disk" */,
+			);
+			productRefGroup = 9393353825F0E2E400361510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9393353625F0E2E400361510 /* MoleDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9393353525F0E2E400361510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9393354725F0E2E600361510 /* LaunchScreen.storyboard in Resources */,
+				9393354425F0E2E600361510 /* Assets.xcassets in Resources */,
+				9393354225F0E2E400361510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9393353325F0E2E400361510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9393357425F0F6A700361510 /* CapturedImage+Transformations.swift in Sources */,
+				9393355B25F0E72800361510 /* SkinClassifier.swift in Sources */,
+				9393358025F1157200361510 /* View.swift in Sources */,
+				9393358E25F123D000361510 /* HapticButton.swift in Sources */,
+				9393356525F0F22400361510 /* CapturedImage.swift in Sources */,
+				9393357D25F1117E00361510 /* ViewController.swift in Sources */,
+				9393356225F0F1A800361510 /* CameraManager.swift in Sources */,
+				9393355325F0E3CB00361510 /* Classifier.swift in Sources */,
+				9393359425F1387500361510 /* Skin_Classifier.mlmodel in Sources */,
+				9393358B25F1177E00361510 /* CameraPreviewView.swift in Sources */,
+				9393353B25F0E2E400361510 /* AppDelegate.swift in Sources */,
+				9393353D25F0E2E400361510 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9393354025F0E2E400361510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9393354125F0E2E400361510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9393354525F0E2E600361510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9393354625F0E2E600361510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9393354925F0E2E600361510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9393354A25F0E2E600361510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9393354C25F0E2E600361510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7AAPFJ73K;
+				INFOPLIST_FILE = MoleDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.MoleDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9393354D25F0E2E600361510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7AAPFJ73K;
+				INFOPLIST_FILE = MoleDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.MoleDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9393353225F0E2E400361510 /* Build configuration list for PBXProject "MoleDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9393354925F0E2E600361510 /* Debug */,
+				9393354A25F0E2E600361510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9393354B25F0E2E600361510 /* Build configuration list for PBXNativeTarget "MoleDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9393354C25F0E2E600361510 /* Debug */,
+				9393354D25F0E2E600361510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9393357725F0FB2300361510 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+		9393358525F116AC00361510 /* XCRemoteSwiftPackageReference "Disk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/saoudrizwan/Disk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9393357825F0FB2300361510 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9393357725F0FB2300361510 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		9393357A25F0FB2300361510 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9393357725F0FB2300361510 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		9393358625F116AC00361510 /* Disk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9393358525F116AC00361510 /* XCRemoteSwiftPackageReference "Disk" */;
+			productName = Disk;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9393352F25F0E2E400361510 /* Project object */;
+}
